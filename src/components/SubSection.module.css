@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.section2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.varMan {
+  width: 40vw;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 60vh;
+  width: 80vw;
+  overflow: hidden;
+}
+.subSectionInfo {
+  text-align: space-around;
+  padding: 1rem;
+  background-color: white;
+  height: 60vh;
+  width: 40vw;
+  position: absolute;
+  bottom: -4%;
+  right: 18.5%;
+  font-family: "Josefin Sans", sans-serif;
+  overflow: hidden;
+}
+.subSectionInfo h1 {
+  font-size: 2.5rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-weight: 100;
+  line-height: 3rem;
+}
+.subSectionInfo p {
+  color: hsl(0, 0%, 55%);
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  font-size: 1rem;
+}
+@media screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    height: 80vh;
+  }
+  .varMan {
+    height: 40vh;
+    width: 80vw;
+    margin-bottom: 1rem;
+  }
+  .subSectionInfo {
+    width: 80vw;
+    height: 50vh;
+  }
+  .subSectionInfo h1 {
+    font-size: 1.55rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    padding-top: 1rem;
+    padding-left: 4rem;
+  }
+  .subSectionInfo p {
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    padding-left: 4rem;
+  }
+}

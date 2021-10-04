@@ -1,0 +1,107 @@
+.container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+}
+.wrapper {
+  width: 100vw;
+  display: flex;
+  height: 25vh;
+  background-color: black;
+  color: white;
+  font-family: "Alata", sans-serif;
+}
+.leftContent {
+  padding: 2rem 6rem;
+  font-family: "Alata", sans-serif;
+  overflow: hidden;
+}
+.leftContent ul {
+  display: flex;
+}
+.leftContent li {
+  padding-right: 1rem;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+.leftContent li::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition: width 0.3s ease-out;
+}
+.leftContent li:hover::before {
+  width: 80%;
+}
+.leftContent h1 {
+  padding-bottom: 2rem;
+}
+
+.rightContent {
+  margin-left: auto;
+  overflow: hidden;
+}
+.rightContent ul {
+  display: flex;
+  padding: 2rem 6rem;
+}
+.rightContent li {
+  padding: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 0.6rem;
+}
+.rightContent li::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  transition: width 0.3s ease-out;
+}
+.rightContent li:hover::before {
+  width: 80%;
+}
+.rightContent p {
+  padding-left: 1.5rem;
+  color: hsl(0, 0%, 41%);
+}
+@media screen and (max-width: 375px) {
+  .container {
+    height: 100vh;
+  }
+  .leftContent ul {
+    flex-direction: column;
+  }
+  .wrapper {
+    height: 80vh;
+    flex-direction: column;
+  }
+  .leftContent h1 {
+    padding-bottom: 0.3rem;
+  }
+  .leftContent li {
+    padding: 0.35rem 4rem;
+  }
+  .rightContent ul {
+    padding-bottom: 0.5rem;
+    padding-top: 0rem;
+  }
+  /* .rightContent p {
+    padding-bottom: 2rem;
+  } */
+  .leftContent li::before {
+    left: 35%;
+  }
+  .leftContent li:hover::before {
+    width: 30%;
+  }
+}
