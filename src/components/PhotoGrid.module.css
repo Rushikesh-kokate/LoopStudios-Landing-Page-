@@ -45,7 +45,7 @@
 .overlay:hover::after {
   background-color: white;
 }
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px)and (max-width: 420px) {
   .mobileImg {
     display: block;
   }
