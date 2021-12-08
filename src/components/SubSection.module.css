@@ -45,32 +45,35 @@
   padding-top: 1.5rem;
   font-size: 1rem;
 }
-@media screen and (min-width: 375px) and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .container {
     flex-direction: column;
     height: 80vh;
   }
   .varMan {
-    height: 40vh;
-    width: 80vw;
-    margin-bottom: 1rem;
+    height: 38vh;
+    width: 75vw;
+    margin: 0;
   }
   .subSectionInfo {
     width: 80vw;
     height: 50vh;
+    padding: 0;
+    bottom: 0;
   }
   .subSectionInfo h1 {
-    font-size: 1.55rem;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     overflow: hidden;
-    padding-top: 1rem;
-    padding-left: 4rem;
+    padding-left: 85px;
+    padding-bottom: 0.2rem;
+    font-size: 1.8rem;
   }
   .subSectionInfo p {
     text-align: center;
     padding-top: 0.5rem;
     font-size: 0.7rem;
     line-height: 1.1rem;
-    padding-left: 4rem;
+    padding-left: 5rem;
+    font-size: 0.8rem;
   }
 }

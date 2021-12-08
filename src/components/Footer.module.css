@@ -74,10 +74,11 @@
   padding-left: 1.5rem;
   color: hsl(0, 0%, 41%);
 }
-@media screen and (min-width: 375px) and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .container {
     height: 100vh;
   }
+
   .leftContent ul {
     flex-direction: column;
   }
@@ -87,17 +88,19 @@
   }
   .leftContent h1 {
     padding-bottom: 0.3rem;
+    margin-left: 0.5rem;
   }
   .leftContent li {
-    padding: 0.35rem 4rem;
+    padding: 0.35rem 5rem;
   }
   .rightContent ul {
     padding-bottom: 0.5rem;
     padding-top: 0rem;
+    margin-right: 0.9rem;
   }
-  /* .rightContent p {
-    padding-bottom: 2rem;
-  } */
+  .rightContent p {
+    padding-right: 2rem;
+  }
   .leftContent li::before {
     left: 35%;
   }

@@ -7,12 +7,12 @@ const PhotoGrid = (props) => {
     <div className={classes.overlay}>
       <img
         className={classes.creationImg}
-        src={`./images/desktop/${props.img}.jpg`}
+        src={require(`./images/desktop/${props.img}.jpg`).default}
         alt={props.alt}
       />
       <img
         className={classes.mobileImg}
-        src={`./images/mobile/${props.img}.jpg`}
+        src={require(`./images/mobile/${props.img}.jpg`).default}
         alt={props.alt}
       />
       <div className={classes.name}>

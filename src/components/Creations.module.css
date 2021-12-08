@@ -64,7 +64,7 @@
   display: none;
 }
 
-@media screen and (min-width: 375px) and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .CreationTab {
     flex-direction: column;
   }
@@ -87,7 +87,7 @@
     font-family: "Alata", sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.2rem;
-    margin: 1rem 7.5rem;
+    margin: 1rem 8.5rem;
   }
   .mobileButton:hover {
     background-color: black;

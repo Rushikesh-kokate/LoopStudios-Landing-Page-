@@ -8,7 +8,7 @@ const SubSection = () => {
       <div className={classes.container}>
         <img
           className={classes.varMan}
-          src={"./images/desktop/image-interactive.jpg"}
+          src={require("./images/desktop/image-interactive.jpg").default}
           alt="man wearing vr device"
         />
         <div className={classes.subSectionInfo}>
