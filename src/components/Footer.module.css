@@ -102,7 +102,7 @@
     padding-right: 2rem;
   }
   .leftContent li::before {
-    left: 35%;
+    left: 34%;
   }
   .leftContent li:hover::before {
     width: 30%;
