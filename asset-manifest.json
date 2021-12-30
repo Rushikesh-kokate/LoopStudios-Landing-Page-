@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Loopstudio-landing-page/static/css/main.29d90f55.chunk.css",
+    "main.js": "/Loopstudio-landing-page/static/js/main.dae79e7a.chunk.js",
+    "main.js.map": "/Loopstudio-landing-page/static/js/main.dae79e7a.chunk.js.map",
+    "runtime-main.js": "/Loopstudio-landing-page/static/js/runtime-main.908bce39.js",
+    "runtime-main.js.map": "/Loopstudio-landing-page/static/js/runtime-main.908bce39.js.map",
+    "static/js/2.b3926207.chunk.js": "/Loopstudio-landing-page/static/js/2.b3926207.chunk.js",
+    "static/js/2.b3926207.chunk.js.map": "/Loopstudio-landing-page/static/js/2.b3926207.chunk.js.map",
+    "static/js/3.6d10b834.chunk.js": "/Loopstudio-landing-page/static/js/3.6d10b834.chunk.js",
+    "static/js/3.6d10b834.chunk.js.map": "/Loopstudio-landing-page/static/js/3.6d10b834.chunk.js.map",
+    "index.html": "/Loopstudio-landing-page/index.html",
+    "static/css/main.29d90f55.chunk.css.map": "/Loopstudio-landing-page/static/css/main.29d90f55.chunk.css.map",
+    "static/js/2.b3926207.chunk.js.LICENSE.txt": "/Loopstudio-landing-page/static/js/2.b3926207.chunk.js.LICENSE.txt",
+    "static/media/image-curiosity.jpg": "/Loopstudio-landing-page/static/media/image-curiosity.7f14665a.jpg",
+    "static/media/image-deep-earth.jpg": "/Loopstudio-landing-page/static/media/image-deep-earth.f8da6014.jpg",
+    "static/media/image-fisheye.jpg": "/Loopstudio-landing-page/static/media/image-fisheye.ff97b54e.jpg",
+    "static/media/image-from-above.jpg": "/Loopstudio-landing-page/static/media/image-from-above.f316f3f3.jpg",
+    "static/media/image-grid.jpg": "/Loopstudio-landing-page/static/media/image-grid.a8ce4f2b.jpg",
+    "static/media/image-hero.jpg": "/Loopstudio-landing-page/static/media/image-hero.9b5aacea.jpg",
+    "static/media/image-interactive.jpg": "/Loopstudio-landing-page/static/media/image-interactive.d6a3949b.jpg",
+    "static/media/image-night-arcade.jpg": "/Loopstudio-landing-page/static/media/image-night-arcade.a5acf9d0.jpg",
+    "static/media/image-pocket-borealis.jpg": "/Loopstudio-landing-page/static/media/image-pocket-borealis.799292df.jpg",
+    "static/media/image-soccer-team.jpg": "/Loopstudio-landing-page/static/media/image-soccer-team.24ac0872.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.908bce39.js",
+    "static/js/2.b3926207.chunk.js",
+    "static/css/main.29d90f55.chunk.css",
+    "static/js/main.dae79e7a.chunk.js"
+  ]
+}
